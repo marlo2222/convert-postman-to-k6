@@ -10,7 +10,27 @@
 			"name": "buscar todos os crocodilos",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://test-api.k6.io/public/crocodiles/",
+					"protocol": "https",
+					"host": [
+						"test-api",
+						"k6",
+						"io"
+					],
+					"path": [
+						"public",
+						"crocodiles",
+						""
+					]
+				}
 			},
 			"response": []
 		}
