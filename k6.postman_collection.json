@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "b53c9c3e-6aac-40d8-ad8a-cc36769ef591",
+		"name": "k6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14511859"
+	},
+	"item": [
+		{
+			"name": "buscar todos os crocodilos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://test-api.k6.io"
+		}
+	]
+}
